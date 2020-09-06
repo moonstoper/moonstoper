@@ -20,4 +20,4 @@
 🌱 I’m currently learning <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"  />&nbsp;  <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">&nbsp;  <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">&nbsp; <img height="32" width="32" src="https://github.com/simple-icons/simple-icons/blob/develop/icons/unity.svg">&nbsp; <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"><br />
 
 ###
-[![Spotify](https://novatorem.moonstoper.vercel.app/)](https://open.spotify.com/user/fireballs)
+[![Spotify](https://novatorem.moonstoper.vercel.app/api/spotify.py)](https://open.spotify.com/user/fireballs)
