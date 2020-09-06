@@ -19,5 +19,9 @@
 <br/>
 🌱 I’m currently learning <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"  />&nbsp;  <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">&nbsp;  <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">&nbsp; <img height="32" width="32" src="https://github.com/simple-icons/simple-icons/blob/develop/icons/unity.svg">&nbsp; <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"><br />
 
-###
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats-git-master.moonstoper.vercel.app/api/pin/?username=moonstoper&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&repo=github-readme-stats" />
+</a>
+
+### 🎶 Tune in
 [![Spotify](https://novatorem.moonstoper.vercel.app/api/spotify.py)](https://open.spotify.com/user/fireballs)
