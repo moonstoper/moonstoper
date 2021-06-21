@@ -16,5 +16,5 @@
 <br/>
 ![stats](https://github-readme-stats-snowy-rho.vercel.app/api?username=moonstoper&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff)
 
-### 🎶 Tune in
-[![Spotify](https://novatorem.moonstoper.vercel.app/api/spotify.py)](https://open.spotify.com/user/fireballs)
+<!-- ### 🎶 Tune in -->
+<!-- [![Spotify](https://novatorem.moonstoper.vercel.app/api/spotify.py)](https://open.spotify.com/user/fireballs) -->
