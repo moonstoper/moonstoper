@@ -2,10 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url("../fonts/Pacifico-Regular.ttf")
+}
+
+@font-face {
+  font-family: 'CairoPlay';
+  src: url("../fonts/CairoPlay.ttf");
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary: rgb(38, 156, 134);
+  --nav-background: rgba(0, 0, 0, 0.431);
+  --text-color: rgb(255, 255, 255);
+  --gradient-white: black;
+  --gradient-green: #043223;
+  --border-color: rgba(127, 195, 144, 0.52);
+  --chatbox-color: white;
+  --chatbox-box-shadow: #425653;
+  --text-greet: orangered;
+
+}
+
+[data-theme="light"] {
+  --primary: #0f6b5a;
+  --nav-background: rgba(255, 255, 255, 0.431);
+  --text-color: rgb(0, 0, 0);
+  --gradient-white: #fee2f8;
+  --gradient-green: #dcf8ef;
+  --border-color: rgba(133, 209, 152, 0.633);
+  --chatbox-color: white;
+  --chatbox-box-shadow: #6fe9d3;
+  --text-greet: orangered;
+
+
+}
+
+[data-theme="dark"] {
+  --primary: rgb(38, 156, 134);
+  --nav-background: rgba(0, 0, 0, 0.431);
+  --text-color: rgb(255, 255, 255);
+  --gradient-white: black;
+  --gradient-green: #043223;
+  --border-color: rgba(127, 195, 144, 0.52);
+  --chatbox-color: white;
+  --chatbox-box-shadow: #425653;
+  --text-greet: orangered;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,11 +62,90 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--text-color);
+  background: linear-gradient(315deg, var(--gradient-white) 0%, var(--gradient-green) 74%);
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+  transition: all .2s ease-out;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 1em;
+  justify-content: flex-end;
+  /* background-color: var(--nav-background); */
+  background: none;
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  height: 5vh;
+  border-bottom: 1px solid var(--border-color);
+  padding: 0px 1em;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99;
+
+}
+
+.name {
+  font-family: 'CairoPlay',monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--text-color);
+  flex-grow: 1;
+  user-select: none;
+
+}
+
+
+
+
+nav>div {
+  font-size: large;
+  cursor: pointer;
+  color: var(--text-color);
+  font-family: monospace;
+}
+
+.greet>div>span{
+color: gold;
+font-size: xx-large;
+}
+
+nav>div>button {
+  font-family: monospace;
+}
+
+@media only screen and (max-width:720px) {
+  nav {
+    height: 7vh;
+
+  }
+
+  .links {
+    flex-direction: column;
+    padding-top: 2vh;
+  }
+}
+
+.intro-content {
+
+  pointer-events: none;
+  position: fixed;
+  z-index: -1;
+}
+
+.project-content {
+  /* position: absolute; */
+  /* top: 10vh; */
+  z-index: 1;
+  left: 0;
+  height: 90vh;
+}
+.svgDarkMode{
+  transition: all .1s ease-in-out;
 }

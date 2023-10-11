@@ -1,0 +1,97 @@
+section{
+    background-color: none;
+    padding: 1em;
+
+}
+.greet{
+    height: 90vh;
+ 
+   
+}
+.greet
+>div{
+    color: var(--primary);
+    /* border-radius: 99px; */
+    background: none;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    transition: all 1.5s ease-in-out;
+    /* box-shadow: 0px 4px var(--chatbox-box-shadow); */
+    
+    overflow: hidden;
+    font-family: monospace;
+    width: fit-content;
+    text-wrap: balance;
+    text-align: left;
+}
+.greet>div:nth-child(1){
+    font-size: 8em;
+}
+
+
+
+
+.greet>div:nth-child(1){
+    color: var(--text-greet);
+
+    font-family: 'CairoPlay',monospace;
+   
+}
+
+
+
+
+
+
+
+
+.project{
+    top: 90vh;
+    border-top: 1px solid -var(--border-color);
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.259),rgba(0, 0, 0, 0.145));
+    backdrop-filter: blur(10px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 70%;
+    position: absolute;
+}
+
+.project>div{
+    width: 30%;
+    height: 50%;
+    background: red;
+}
+input[type="checkbox"]#themeswitch{
+    /* display: none; */
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.checkbox-theme>label>img{
+    cursor: pointer;
+}
+
+.svgDarkMode{
+    width: 2em;
+}
+
+.checkbox-theme{
+    display: flex;
+}
+
+@media only screen and (max-width:600px) {
+    .greet>div{
+        font-size: 2.5em;
+        
+    }
+    .greet>div:nth-child(1){
+        font-size: 5em;
+    }
+   
+}

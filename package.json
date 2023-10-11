@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.70.0",
+    "@react-three/fiber": "^8.13.0",
+    "@spectrum-css/switch": "^3.1.1",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
@@ -20,6 +23,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
+    "three": "^0.152.2",
     "typescript": "5.0.4"
   }
 }

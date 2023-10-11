@@ -1,0 +1,17 @@
+footer{
+    /* height: 100vh; */
+    display: flex;
+    padding-top: 20vh;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+dialog{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+   
+    
+}
+
